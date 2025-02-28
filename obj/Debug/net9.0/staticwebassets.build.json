@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2VZAvbY0OQbmiVf5oTg4ke5dn0GRMDf9hWsdatYe1YY=",
+  "Source": "homeroutine-server",
+  "BasePath": "_content/homeroutine-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server/homeroutine-server.csproj": {}
+    "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server.csproj": {}
   },
   "projects": {
-    "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server/homeroutine-server.csproj": {
+    "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server/homeroutine-server.csproj",
+        "projectUniqueName": "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server.csproj",
         "projectName": "homeroutine-server",
-        "projectPath": "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server/homeroutine-server.csproj",
+        "projectPath": "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/homeroutine-server/obj/",
+        "outputPath": "/Users/user/Documents/Apps/HomeRoutine/homeroutine-server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -44,9 +44,35 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
             }
           },
           "imports": [
